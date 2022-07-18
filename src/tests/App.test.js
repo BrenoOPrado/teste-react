@@ -22,6 +22,8 @@ describe('Testando se existe um conjunto de links de navegação na aplicação'
   });
 });
 
+// mutantes mortos 💀
+
 describe('Testando a funcionalidade dos liks da aplicação', () => {
   it('teste do link `Home`', () => {
     const { history } = renderWithRouter(<App />);
